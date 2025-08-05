@@ -118,7 +118,10 @@
                             <div class="item-date">Sep - Nov 2023</div>
                         </div>
                         <div class="item-description">
-                            Designed and built scalable data infrastructure using AWS services. Gained expertise in data ingestion, transformation, and pipeline optimization.
+                            Designed and built scalable data infrastructure using AWS services. Gained expertise in data ingestion, transformation, and pipeline optimization.<br>
+                            <button class="certificate-btn" onclick="openModal('dataEngineering')">
+                                <span class="icon">🏆</span> View Certificate
+                            </button>
                         </div>
                     </div>
                     <div class="experience-item">
@@ -130,7 +133,10 @@
                             <div class="item-date">May - Jul 2023</div>
                         </div>
                         <div class="item-description">
-                            Developed ML models and AI solutions using AWS services. Focused on data preprocessing, model training, and deployment.
+                            Developed ML models and AI solutions using AWS services. Focused on data preprocessing, model training, and deployment.<br>
+                            <button class="certificate-btn" onclick="openModal('aiMl')">
+                                <span class="icon">🏆</span> View Certificate
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -198,10 +204,44 @@
             </div>
         </div>
     </div>
-</body>
-</html>
 
+    <!-- Certificate Modals -->
+<div id="dataEngineeringModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">AWS Data Engineering Certificate</h3>
+            <button class="close-btn" onclick="closeModal('dataEngineering')">&times;</button>
+        </div>
+        <div class="certificate-image-container">
+            <img src="assets/de.png" alt="AWS Data Engineering Certificate" class="certificate-image" onclick="toggleFullscreen(this)">
+        </div>
+        <div class="certificate-info">
+            <div class="certificate-description">
+                This certificate validates expertise in designing and building scalable data infrastructure using AWS services including data ingestion, transformation, and pipeline optimization.
+            </div>
+            <div class="certificate-issuer">Issued by: Amazon Web Services (AWS)</div>
+        </div>
+    </div>
+</div>
 
-    <script src="script.js"></script>
+<div id="aiMlModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">AWS AI-ML Certificate</h3>
+            <button class="close-btn" onclick="closeModal('aiMl')">&times;</button>
+        </div>
+        <div class="certificate-image-container">
+            <img src="assets/aiml.png" alt="AWS AI-ML Certificate" class="certificate-image" onclick="toggleFullscreen(this)">
+        </div>
+        <div class="certificate-info">
+            <div class="certificate-description">
+                This certificate demonstrates proficiency in developing ML models and AI solutions using AWS services, focusing on data preprocessing, model training, and deployment.
+            </div>
+            <div class="certificate-issuer">Issued by: Amazon Web Services (AWS)</div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

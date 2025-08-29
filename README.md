@@ -10,7 +10,7 @@
 **An immersive, animated resume experience showcasing the journey of**  
 **Pranav Dhondiram Pawar** | B.Tech CSE (AI & Analytics)
 
-[🌐 **Live Demo**](#) • [📄 **View Code**](.) • [📬 **Contact Me**](#-connect-with-me)
+[🌐 **Live Demo**](https://pranavisback.github.io/resume/) • [📄 **View Code**](.) • [📬 **Contact Me**](#-connect-with-me)
 
 </div>
 

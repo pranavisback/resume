@@ -85,10 +85,10 @@ graph LR
 ### 1️⃣ **Get the Code**
 ```bash
 # Clone this repository
-git clone https://github.com/pranavisback/resume-portfolio.git
+git clone https://github.com/pranavisback/resume.git
 
 # Navigate to project directory
-cd resume-portfolio
+cd resume
 ```
 
 ### 2️⃣ **Launch Locally**
